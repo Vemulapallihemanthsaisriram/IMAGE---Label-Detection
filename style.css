@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e7db; /* Soft, warm beige background */
+    color: #2d3748; /* Dark grey text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* White container background */
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: #4a5568; /* Soft grey for headings */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #718096; /* Medium grey for paragraphs */
+    margin-bottom: 20px;
+}
+
+.upload-box {
+    margin-bottom: 20px;
+}
+
+.file-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e2e8f0; /* Light grey border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #2d3748;
+}
+
+.upload-button {
+    background-color: #9b2c2c; /* Muted coral button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #822727; /* Darker coral on hover */
+}
+
+#preview img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.loading-indicator {
+    color: #9b2c2c; /* Matches button color */
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.output-box {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.output-box p {
+    margin: 5px 0;
+}
+
+.output-box strong {
+    color: #dd6b20; /* Soft orange for label emphasis */
+}
