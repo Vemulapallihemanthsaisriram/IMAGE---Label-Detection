@@ -1,1 +1,1 @@
-# Iship_2-Project
+AWS Rekognition - Label Detection
